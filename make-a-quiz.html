@@ -37,9 +37,9 @@
       </h3>
       <div id="quiz"></div>
     </div>
-
+    <script src="configuration.js"></script>
     <script>
-      let host = "http://localhost:8080";
+      let host = getHost();
       let questions = [];
       let list = document.getElementById("list");
       let quiz = document.getElementById("quiz");
